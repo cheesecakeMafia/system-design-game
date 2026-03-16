@@ -551,7 +551,7 @@ course/
 - [x] Progress tracking file
 - [x] Glossary file
 - [x] Module 1: Lectures 1-5 + Boss Battle 1
-- [ ] Module 2: Lectures 6-10 + Boss Battle 2
+- [x] Module 2: Lectures 6-10 + Boss Battle 2
 - [ ] Module 3: Lectures 11-15 + Boss Battle 3
 - [ ] Module 4: Lectures 16-20 + Final Boss
 
