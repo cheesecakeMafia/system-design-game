@@ -8,6 +8,26 @@ This course is designed for developers who want to deeply understand how large-s
 
 ---
 
+## Powered By Two Excellent Open-Source Projects
+
+This course would not exist without these two projects. They are the foundation everything here is built on.
+
+### [System Design Primer](https://github.com/donnemartin/system-design-primer) by Donne Martin
+
+The textbook for this course. A comprehensive, community-driven guide to system design with 280,000+ stars on GitHub — one of the most valuable learning resources in software engineering. It covers everything from networking fundamentals to distributed systems, includes reference solutions for real interview problems, Anki flashcard decks, and object-oriented design notebooks. Every lecture in this course assigns pre-reading from it, and every Boss Battle benchmarks your design against its reference solutions.
+
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Creative Commons Attribution)
+
+### [Server Survival](https://github.com/pshenok/server-survival) by Kostyantyn Pshenychnyy
+
+The game that brings system design to life. A Three.js browser game where you build cloud infrastructure — firewalls, load balancers, caches, queues, databases, compute nodes — to survive waves of incoming traffic. Every component in the game maps directly to a system design concept: placing a Cache reduces database load, adding a Queue absorbs traffic spikes, deploying a Load Balancer distributes requests across Compute nodes. You don't just read about these ideas — you feel them break when you get them wrong.
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+See [ATTRIBUTION.md](ATTRIBUTION.md) for full license and usage details.
+
+---
+
 ## What You Get
 
 - **20 lectures** across 4 themed modules, each with pre-reading, deep dives, and real-world examples
@@ -66,7 +86,7 @@ That's it. No frameworks, no build tools, no accounts to create.
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/system-design-game.git
+git clone https://github.com/cheesecakeMafia/system-design-game.git
 cd system-design-game
 
 # 2. Run the setup script (clones the textbook and game into deps/)
@@ -86,7 +106,7 @@ If you prefer not to run scripts, you can clone the dependencies yourself:
 
 ```bash
 # Clone this repo
-git clone https://github.com/YOUR_USERNAME/system-design-game.git
+git clone https://github.com/cheesecakeMafia/system-design-game.git
 cd system-design-game
 
 # Create the deps directory
@@ -100,30 +120,6 @@ git clone https://github.com/pshenok/server-survival.git deps/server-survival
 ```
 
 Then open `course/README.md` to begin.
-
----
-
-## Built On
-
-This course stands on the shoulders of two excellent open-source projects:
-
-### System Design Primer
-by [Donne Martin](https://github.com/donnemartin)
-
-A comprehensive guide to system design with 280,000+ stars on GitHub. Covers everything from networking fundamentals to distributed systems, complete with reference solutions and flashcards. Used here as the course textbook — every lecture assigns pre-reading from it.
-
-Repository: [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
-License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Creative Commons Attribution)
-
-### Server Survival
-by [Kostyantyn Pshenychnyy](https://github.com/pshenok)
-
-A Three.js browser game where you build cloud infrastructure — firewalls, load balancers, caches, queues, databases — to survive incoming traffic. The game's components map directly to system design concepts, making it a perfect hands-on learning tool.
-
-Repository: [github.com/pshenok/server-survival](https://github.com/pshenok/server-survival)
-License: [MIT](https://opensource.org/licenses/MIT)
-
-See [ATTRIBUTION.md](ATTRIBUTION.md) for full license details.
 
 ---
 
