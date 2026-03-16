@@ -117,7 +117,7 @@ Every lecture follows this flow:
 
 ## Quick Reference
 
-- [Full Project Plan](project-plan.md) — detailed curriculum with all topics
+- [Full Curriculum](curriculum.md) — detailed curriculum with all topics
 - [Progress Tracker](progress.md) — your scores and notes
 - [Glossary](glossary.md) — key terms accumulated throughout the course
 - [System Design Primer](../deps/system-design-primer/README.md) — main textbook

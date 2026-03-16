@@ -508,8 +508,8 @@ Progress will be tracked in `course/progress.md`:
 
 ```
 course/
-├── README.md                    # Course overview, module map, status tracking
-├── project-plan.md              # This file — detailed curriculum plan
+├── START-HERE.md                # Course overview, module map, status tracking
+├── curriculum.md                # This file — detailed curriculum plan
 ├── progress.md                  # Quiz scores, challenge log, survival scores
 ├── glossary.md                  # Accumulating key terms
 ├── module-1/

@@ -72,6 +72,24 @@ The course is self-paced. At an intensive pace (10+ hours/week), expect about 3-
 
 ---
 
+## AI Tutor Support
+
+This course is designed to work with AI coding assistants as your discussion partner and tutor. Discussion prompts, challenge missions, and boss battles all benefit from back-and-forth conversation with an AI.
+
+The repo includes pre-configured context files for three AI CLI tools:
+
+| Tool | Context File | Setup |
+|------|-------------|-------|
+| [Claude Code](https://claude.ai/claude-code) | `CLAUDE.md` | Works automatically |
+| [Codex CLI](https://github.com/openai/codex) | `AGENTS.md` | Works automatically |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `GEMINI.md` | Works automatically |
+
+Use whichever tool you prefer. All three have the full course context — they know the curriculum structure, the lecture format, and how to help you work through challenge missions and boss battles.
+
+No AI tool is required to complete the course, but the discussion prompts are designed for interactive conversation rather than solo reflection.
+
+---
+
 ## Prerequisites
 
 - **git** — to clone this repo and the dependencies
@@ -95,7 +113,7 @@ cd system-design-game
 # Or on Windows: powershell -ExecutionPolicy Bypass -File setup.ps1
 
 # 3. Start learning
-# Open course/README.md in your editor or on GitHub
+# Open course/START-HERE.md in your editor or on GitHub
 ```
 
 ---
@@ -119,13 +137,13 @@ git clone https://github.com/donnemartin/system-design-primer.git deps/system-de
 git clone https://github.com/pshenok/server-survival.git deps/server-survival
 ```
 
-Then open `course/README.md` to begin.
+Then open `course/START-HERE.md` to begin.
 
 ---
 
 ## Start the Course
 
-Ready to begin? Open **[course/README.md](course/README.md)** for the full module map and learning path.
+Ready to begin? Open **[course/START-HERE.md](course/START-HERE.md)** for the full module map and learning path.
 
 ---
 
