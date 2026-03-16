@@ -1,0 +1,19 @@
+# External dependencies (cloned by setup script)
+deps/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# macOS metadata
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Generated EPUB files (from system-design-primer)
+*.epub
+
+# Handoff and generated prompt files
+HANDOFF_PROMPT.md
+prompt_*.md
