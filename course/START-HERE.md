@@ -111,14 +111,21 @@ Every lecture follows this flow:
 6. CHALLENGE MISSION   Guided design problem — must complete to advance
 ```
 
-**To start a lecture:** Read the Pre-Reading from the primer first. Then open the lecture file. When you hit the Discussion section, come back to Claude. When you hit the Quiz, answer in `progress.md`. When you hit the Challenge Mission, design your solution and discuss with Claude.
+**To start a lecture:** Read the Pre-Reading from the primer first. Then open the lecture file. When you hit the Discussion section, discuss with your AI tutor. When you hit the Quiz, record your score in your progress file. When you hit the Challenge Mission, design your solution and discuss it.
+
+**Keeping progress private:** To track your scores without pushing them to GitHub, copy the template files to personal versions:
+```bash
+cp course/progress.md course/my-progress.md
+cp course/glossary.md course/my-glossary.md
+```
+Files matching `my-*.md` are gitignored — your progress stays local.
 
 ---
 
 ## Quick Reference
 
 - [Full Curriculum](curriculum.md) — detailed curriculum with all topics
-- [Progress Tracker](progress.md) — your scores and notes
-- [Glossary](glossary.md) — key terms accumulated throughout the course
+- [Progress Tracker](progress.md) — template for scores and notes
+- [Glossary](glossary.md) — template for key terms
 - [System Design Primer](../deps/system-design-primer/README.md) — main textbook
 - [Server Survival](../deps/server-survival/index.html) — the game

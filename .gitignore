@@ -17,3 +17,6 @@ node_modules/
 # Handoff and generated prompt files
 HANDOFF_PROMPT.md
 prompt_*.md
+
+# Personal progress files (use my-progress.md and my-glossary.md to keep your work private)
+my-*.md
